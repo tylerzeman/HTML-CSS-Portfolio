@@ -1,0 +1,56 @@
+:root {
+    --main-color:white;
+    --secondary-color: rgb(83, 133, 224);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(110, 106, 106);
+}
+
+.main-header {
+    height:50px;
+    background: var(--secondary-color);
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 30px;
+    color: var(--main-color);
+}
+
+.main-header nav a {
+    color: var(--main-color);
+    text-decoration: none;
+    position: relative;
+}
+
+header.main-header nav a:not(:last-child) {
+    margin-right: 8px;
+}
+
+header.main-header nav a:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    width:0%;
+    height: 1px;
+    background: var(--main-color);
+    border-radius: 3px;
+    transition: width .5s;
+}
+
+header.main-header nav a:hover:after {
+    width:100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+} 
