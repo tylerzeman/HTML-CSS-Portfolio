@@ -133,7 +133,8 @@ footer.bottom-bar a:hover:after {
     width:100%;
 }
 
-@media (max-width:768px) {
-
-/* For mobile phones: */
+@media screen and (max-width:768px) {
+    body {
+        background-color:rgb(212, 124, 124)
+    }
 }
