@@ -114,6 +114,7 @@ section {
 .bottom-bar a {
     text-decoration:none;
     color: var(--main-color);
+    position: relative;
 }
 
 footer.bottom-bar a:after {
@@ -130,4 +131,9 @@ footer.bottom-bar a:after {
 
 footer.bottom-bar a:hover:after {
     width:100%;
+}
+
+@media (max-width:768px) {
+
+/* For mobile phones: */
 }
