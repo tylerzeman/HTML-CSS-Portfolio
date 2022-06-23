@@ -1,3 +1,5 @@
+/*resets */
+
 :root {
     --main-color:white;
     --secondary-color: rgb(83, 133, 224);
@@ -8,6 +10,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* Glocal Selectors */
 
 body {
     background-color: rgb(110, 106, 106);
@@ -22,6 +26,7 @@ body {
     justify-content: space-between ;
     padding: 30px;
     color: var(--main-color);
+    border-bottom: 5px solid var(--main-color);
 }
 
 .main-header nav a {
@@ -50,7 +55,79 @@ header.main-header nav a:hover:after {
     width:100%;
 }
 
+.main {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/codingwallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 section {
     display: flex;
-    flex-wrap: wrap;
-} 
+    margin: 30px;
+}
+
+.img-style {
+    border-radius: 10px;
+    border: 5px solid white ;
+}
+
+#projects {
+    height: 350px;
+    width: 350px;
+}
+.boxtype1 {
+    border: 5px solid white;
+    color: var(--main-color);
+    background: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15px;
+    width:100%;
+    font-size: 25px;
+}
+
+.boxtype2 {
+    border: 5px solid white;
+    color: var(--main-color);
+    background: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+    width: 100%;
+    font-size:25px;
+}
+
+.bottom-bar {
+    height:50px;
+    color: var(--main-color);
+    background: var(--secondary-color);
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid var(--main-color);
+}
+
+.bottom-bar a {
+    text-decoration:none;
+    color: var(--main-color);
+}
+
+footer.bottom-bar a:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    width:0%;
+    height: 1px;
+    background: var(--main-color);
+    border-radius: 3px;
+    transition: width .5s;
+}
+
+footer.bottom-bar a:hover:after {
+    width:100%;
+}
