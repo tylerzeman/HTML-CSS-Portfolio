@@ -137,4 +137,13 @@ footer.bottom-bar a:hover:after {
     body {
         background-color:rgb(212, 124, 124)
     }
+    section img  {
+        display: none;
+    }
+    .boxtype1,.boxtype2 {
+        margin: 0px;
+    }
+    .main {
+        height: 400px;
+    }
 }
