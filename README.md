@@ -12,6 +12,10 @@ continue to work on throughout the summer to eventually add more programming lan
 
 https://tylerzeman.github.io/HTML-CSS-Portfolio/
 
+## Features
+
+My basic site showcases an image of me and a section about me, it contains images that are clickable to their respective deployed projects. Footer bar contains a way to contact me at my current email:tylerzeman1999@gmail.com
+
 ## Screenshots of Webpage
 
 ![Screenshot1](/assets/images/screenshot1.png?raw=true "Screenshot1")
